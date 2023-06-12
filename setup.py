@@ -30,7 +30,7 @@ setup(
     install_requires=requirements,
     extras_require={
         'api': requirements_api,
-        'cloud': ['chatgpt-cloud~=0.5.8'],
+        'cloud': ['chatgpt-cloud~=0.5.9'],
     },
     entry_points={
         'console_scripts': [
