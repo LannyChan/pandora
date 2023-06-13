@@ -30,7 +30,7 @@ setup(
     install_requires=requirements,
     extras_require={
         'api': requirements_api,
-        'cloud': ['pandora-cloud~=0.5.9'],
+        'cloud': ['chatgpt-cloud~=0.5.9'],
     },
     entry_points={
         'console_scripts': [
